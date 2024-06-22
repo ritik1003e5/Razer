@@ -1,0 +1,851 @@
+*,body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    }
+ body{
+    overflow-x: hidden;
+ }
+
+h1{
+    z-index: 998;
+    font-size: 50px;
+}
+h2{
+    z-index: 998;
+}
+a{
+    z-index: 998;
+}
+body{
+    background:#111111;
+}
+
+nav{
+    height: 65px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+border-bottom: 1px solid lime;
+z-index: 999;
+}
+nav ul{ 
+display: flex;
+align-items: center;
+}
+nav li a{
+    color: #888;
+    margin: 30px;
+}
+nav img{
+    margin-right: 50px;
+    width: 30px;
+}
+nav li:hover a{
+color: white;
+}
+.laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-image: url("razer234.webp");
+    background-size: 1900px;
+    background-position: center;
+    position: relative;
+    top: 20px;
+    
+}
+.laptopText{
+    margin-bottom: 500px;
+    margin-top: 80px;
+}
+.laptopText h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+.laptopText h2{
+font-size: 40px;
+}
+.laptopText a{
+    display: inline-block;
+        color: white;
+        margin-right: 60px;
+        margin-left: 50px;
+        font-size: 20px;
+}
+
+.button{
+  color: white;
+  text-align: center;
+  
+}
+.button:hover{
+text-decoration: underline;
+
+}
+
+.gear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    width: 100%;
+    height: 100%;
+    background-image: url("aether.webp");   
+    background-size: 1900px;
+    background-position: center;
+    
+}
+.gearText{
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 80px;
+}
+.gearText h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.gearText h2{
+font-size: 30px;
+font-weight: 30;
+position: relative;
+left: 250px;
+}
+.secret{
+    position: relative;
+    top: 20px;
+}
+#bajablast{
+    position: relative;
+    top: 18px;
+}
+.secret:hover{
+    text-decoration: underline;
+}
+.gearText a{
+    display: inline-block;
+        color: white;
+        margin-left: 220px;
+        font-size: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    width: 100%;
+    height: 100%;
+    background-image: url("18bladeyuess.webp");   
+    background-size: 1900px;
+    background-position: center;
+    
+}
+.formText{
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 80px;
+}
+.formText h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+    position: relative;
+    left: 60px;
+}
+.formText h2{
+    margin-left: 200px;
+font-size: 25px;
+font-weight: 30;
+position: relative;
+right: 100px;
+}
+.formText a{
+    display: inline-block;
+        color: white;
+        margin-top: 20px;   
+        margin-right: 60px;
+        margin-left: 80px;
+        font-size: 20px;
+}
+
+ .row{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    background-color: #111111;
+    color: white;
+ }
+ .item{
+    height: 300px;
+    width: 25%;
+    padding: 20px;
+ }
+ .picture{
+height: 100px;
+position: relative;
+top: 10px;
+ }
+ .picture img{
+   width: 700px;
+   z-index: 1;
+ }
+ .test{
+   position: relative;
+   top: 145px;
+   left: 400px;
+   z-index: 2;
+   text-align: center;  
+   transform: scale(1.00001)
+  
+ }
+.test h1 {
+    position: relative;
+    top: 90px;
+    left: 90px;
+   width: 500px;
+   font-size: 30px;
+  
+}
+.test h2 {
+    position: relative;
+    top: 110px;
+    left: 50px;
+    width: 600px;
+    font-weight: 30;
+    font-size: 18;
+}
+.test a {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    color: white;
+}
+.test img{
+    position: relative;
+    bottom: 45px;
+}
+.firstText h1{
+    position: relative;
+    top: 220px;
+   width: 400px;
+   font-size: 30px;
+   left: -50px;
+   color: black;
+}
+.firstText h2{
+    position: relative;
+    top: 235px;
+    right: 90px;
+    width: 500px;
+    color: black;
+    font-weight: 30;
+}
+#blacker{
+    color: black;
+}
+ .firstText{
+    position: relative;
+    left: 200px;
+   
+ }
+
+
+ .links{
+    position: relative;
+    top: 240px; 
+    left: 40px;      
+ }
+
+ #first img{
+    position: relative;
+   top: 100px;
+   
+}
+.links:hover{
+    color: black;
+}
+#first a{
+    position: relative;
+    top: 10px;
+    color: black;
+    left: 230px;
+    width: 50px;
+}
+#test2{
+position: relative;
+bottom: 3.5px;
+transform: scale(1.03);
+}
+.test2Text{
+    position: relative;
+    right: 900px;
+    top: 600px;
+}
+
+.test2Text h1{
+    position: relative;
+    width: 500px;
+   right: 100px;
+   font-size: 30px;
+   margin-bottom: 15px;
+   top: 140px; 
+}
+#shopnow1{
+    position: relative;
+    top: 175px;
+    right: -50px;
+}
+#ea2456151{
+    position: relative;
+    right: 60px;
+    top: 175px;
+}
+.test2Text h2{
+    position: relative;
+   right: 160px;
+   top: 140px;
+   width: 600px;
+   font-weight: 30;
+}
+.test2Text img{
+position: relative;
+right: 270px;
+}
+
+.test3{
+    position: relative;
+    top: 300px;
+    left: 750px;
+    
+}
+.test3 h1{
+    position: relative;
+  width: 160%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  left: 200px;
+  top: 130px;
+  width: 500px;
+  font-size: 30px;
+
+}
+.test3 h2{
+    position: relative;
+    width: 500px;
+    left: 150px;
+    top: 140px;
+    font-weight: 30;
+  }
+
+  .test3 img{
+    position: relative;
+    top: -0px;
+    height: 440;
+  }
+  .test4{
+    position: relative;
+     top: 820px;
+     right: 400px;
+     background: #111111;
+     
+  }
+  #learnitbro{
+position: relative;
+top: 180px;
+left: 220px;
+  }
+ #buyitplease{
+    position: relative;
+    top: 180px;
+    left: 320px;
+
+ }
+  .test4 h1{
+    position: relative;
+    left: 220px;
+   top: 130px;
+   width: 500px;
+    font-size: 30px;
+
+  }
+  .test4 h2{
+    position: relative;
+    left: 200px;
+    top: 140px;
+    font-weight: 30;
+  }
+  .test4 a{
+    color: white;
+    position: relative;
+    top: 170px;
+    left: 250px;
+  }
+  .test5{
+  position: relative;
+  top: 840px;
+  bottom: 20px;
+  left: 20px;
+
+  }
+  .test5 h1{
+  position: relative;
+  top: 140px;
+  left: 200px;
+  width: 500px;
+  font-size: 30px;
+  
+  }
+  .test5 h2{
+    position: relative;
+    left: 270px;    
+    top: 150px;
+    width: 500px;
+    font-weight: 30;
+    }
+
+    #yasee{
+        position: relative;
+        top: 180px;
+        left: 220px;
+    }
+    #yaseen{
+        position: relative;
+        top: 180px;
+        left: 300px;
+    }
+
+.nav{
+    padding: 10px;
+}
+.iam{
+    position: relative;
+    left: 80px;
+    bottom: 19px;
+}
+.poopey{
+    position: relative;
+    right: 70px;
+}
+.touch{
+    position: relative;
+    left: 140px;
+    bottom: 19px;
+}
+.touch2{
+    position: relative;
+    left: 00px;
+}
+.iasd{
+    position: relative;
+    left: 140px;
+    bottom: 18px;
+}
+.breh{
+    position: relative;
+    left: 60px;
+}
+.breh2{
+    position: relative;
+    left: 280px;
+    bottom: 44px;
+}
+.ifurreadingthisidkwhattonamethis{
+position: relative;
+left: 40px;
+}
+.hi{
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.asd2{
+    position: relative;
+left: 380px;
+bottom: -50px;
+}
+.asd2 h2{
+    font-weight: 20;
+    font-size: 30px;
+}
+.asd3{
+    position: relative;
+    left: 280px;
+    top: 80px;
+}
+.asd4{
+    position: relative;
+    left: 500px;
+    bottom: -57px;
+}
+.footer{
+    background: #111111;
+    height: 600px;
+    color: white;
+    position: relative;
+    /* bottom: 6400px; */
+    top: 1100px;
+
+}
+.footera{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+}
+.footera p{
+    margin-top: 20px;
+    position: relative;
+    right: 100px;
+    transform: scale(.8);
+
+}
+.stores{
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+    transition: .6s;
+    transform: scale(.8);
+    width: 100px;
+
+}
+.stores:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footerb{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 280px;
+  bottom: 380px;
+  transform: scale(.8)
+}
+.stores2{
+    color: gray;
+    margin: 20px 20px 0px 0px;
+    transition: .6s;
+
+}
+.stores2:hover{
+    color: white;
+    text-decoration: underline;
+}
+.e{
+    width: 200px;
+    position: relative;
+    left: -25px;
+}
+.footerc{
+    transform: scale(.8);
+    position: relative;
+    bottom: 602px;
+    left: 430px;
+}
+#chroma{
+    width: 100px;
+}
+#tech{
+    width: 80px;
+}
+#concep{
+    width: 70px;
+}
+#sports{
+    width: 60px;
+}
+#colab{
+    width: 60px;
+}
+.stores3{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    transition: .6s;
+    width: 170px;
+    position: relative;
+}
+.stores3:hover{
+color: white;
+text-decoration: underline;
+}
+#mhm{
+    width: 80px;
+}
+#yea{
+    width: 120px;
+}
+#theraphy{
+width: 65px;
+position: relative;
+
+}
+#id{
+    width: 130px;
+}
+#holuplemmecook{
+    width: 150px;
+}
+.suppo{
+    margin-bottom: 20px;
+}
+.stores4{
+    color: gray;
+    transform: scale(.8);
+    margin-bottom: 15px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    transition: .6s;
+    width: 75px;
+}
+.stores4:hover{
+    color: white;
+    text-decoration: underline;
+}
+#cont{
+    width: 80px;
+}
+.footerd{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 880px;
+    left: 700px;
+    
+}
+.companiesa{
+    position: relative;
+    left: 40px;
+}
+.footerd p{
+transform: scale(.8);
+}
+.texthol{
+color: limegreen;
+transform: scale(.7);
+font-weight: 100;
+position: relative;
+bottom: 1330px;
+left: 980px;
+}
+.thefinal{
+    border-color: gray;
+    position: relative;
+    bottom: 890px
+}
+.blank1{
+background: #111111;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    bottom: 1070px;
+}
+.blanker2{
+    background:#111111;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    left: 1400px;
+    bottom: 1400px;
+}
+.footere{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1040px;
+    bottom: 1045px;
+
+  
+}
+
+.followed{
+    position: relative;
+    bottom: 15px;
+    right: 110px;
+    transform: scale(.8);
+}
+
+.followd{
+    color: gray;
+    transition: .6s;
+    margin-bottom: 15px;
+    transform: scale(.8);
+    width: 70px;
+}
+.followd:hover{
+    color: white;
+    text-decoration: underline;
+}
+.x{
+    width: 10px;
+    position: relative;
+    left: 6px;
+}
+.yutube{
+    width: 60px;
+}
+.su3s{
+    width: 55px;
+}
+.nahidwin{
+    color: gray;
+    transform: scale(.8);
+    display: flex;
+    position: relative;
+    bottom: 2250px;
+}
+.wydm{
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+    top: 980px;
+    display: flex;
+ 
+}
+.copyright{
+    position: relative;
+    top: 990px;
+}
+.res{
+    color: gray;
+margin-right: 20px;
+transition: .6s;
+}
+.res:hover{
+    color: white;
+    text-decoration: underline;
+}
+.location{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: 1000px;
+}
+.locat2{
+    color: white;
+}
+.locat{
+    color: gray;
+    position: relative;
+    left: 5px;
+    transition: .6s;
+}
+.locat:hover{
+    color: white;
+    text-decoration: underline;
+}
+.whybuy{
+    color: limegreen;
+    width: 713px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+position: relative;
+bottom: 6180px;
+left: 630px;
+transform: scale(1.3);
+}
+.energyim{
+    width: 80px;
+margin-bottom: 20px;
+position: relative;
+left: 30px;
+}
+.energyh2{
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+.energyp{
+    color: gray;
+    font-size: 19px;
+    width: 340px;
+    position: relative;
+    right: 50px;
+}
+#energy{
+    position: relative;
+    bottom: 6000;
+    left: 100px;
+    color: white;
+}
+#idontknowanymore{
+    color: white;
+    position: relative;
+    bottom: 6195px;
+    left: 460px;
+}
+.costp{
+    color: gray;
+width: 400px;
+font-size: 19px;
+position: relative;
+right: 50px;
+}
+.costh2{
+    width: 400px;
+margin-bottom: 10px;
+position: relative;
+right: 80px;
+}
+.costim{
+    width: 80px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 70px;
+}
+.starim{
+    width: 80px;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+}
+#lestar{
+    color: white;
+    position: relative;
+    bottom: 6377px;
+    left: 830px;
+}
+.starh2{
+    width: 400px;
+    position: relative;
+    right: 20px;
+}
+.starp{
+    color: gray;
+    font-size: 19px;
+    width: 350px;
+    margin-top: 10px;
+}
+#ehnote{
+    color: white;
+    position: relative;
+    bottom: 6535px;
+    left: 1220px;
+}
+.notep{
+    color: grey;
+    width: 300px;
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+}
+.noteim{
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+}

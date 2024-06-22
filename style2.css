@@ -1,0 +1,2250 @@
+    *,body,html{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    body{
+        overflow-x: hidden;
+        height: 725px;
+    }
+    h1{
+        z-index: 998;
+        font-size: 50px;
+    }
+    h2{
+        z-index: 998;
+    }
+    a{
+        z-index: 998;
+    }
+    body{
+        background-color: black;
+        scroll-behavior: smooth;
+    }
+
+    nav{
+        height: 65px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+    border-bottom: 1px solid lime;
+    z-index: 999;
+    }
+    nav ul{ 
+    display: flex;
+    align-items: center;
+    }
+    nav li a{
+        color: #888;
+        margin: 30px;
+    }
+    nav img{
+        margin-right: 50px;
+        width: 30px;
+    }
+    nav li:hover a{
+    color: white;
+    }
+    .laptop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        background-image: url("dfgf.webp");
+        background-size: 1900px;
+        background-position: center;
+        
+    }
+    .laptopText{
+        margin-bottom: 500px;
+        margin-top: 80px;
+    }
+    .laptopText h1{
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+    .laptopText h2{
+    font-size: 40px;
+    }
+    .laptopText a{
+        display: inline-block;
+            color: white;
+            margin-right: 60px;
+            margin-left: 50px;
+            font-size: 20px;
+    }
+    .button{
+        background-color: black;    
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 2px solid white;
+        transition: background-color .1s linear, color .1s linear;
+    }
+    .button:hover{
+        background-color: white;
+        color: black;
+    }
+    .gear{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        width: 100%;
+        height: 100%;
+        background-image: url("razer3.webp");   
+        background-size: 1900px;
+        background-position: center;
+        
+    }
+    .gearText{
+        color: white;
+        margin-bottom: 500px;
+        margin-top: 80px;
+    }
+    .gearText h1{
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+    .gearText h2{
+    font-size: 40px;
+    }
+    .gearText a{
+        display: inline-block;
+            color: white;
+            margin-left: 220px;
+            font-size: 20px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        width: 100%;
+        height: 100%;
+        background-image: url("razer4.webp");   
+        background-size: 1900px;
+        background-position: center;
+        
+    }
+    .formText{
+        color: white;
+        margin-bottom: 500px;
+        margin-top: 80px;
+    }
+    .formText h1{
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+    .formText h2{
+        margin-left: 200px;
+    font-size: 40px;
+    }
+    .formText a{
+        display: inline-block;
+            color: white;
+            margin-top: 20px;   
+            margin-right: 60px;
+            margin-left: 80px;
+            font-size: 20px;
+    }
+
+    .row{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        background-color: #222222;
+        color: white;
+    }
+    .item{
+        height: 300px;
+        width: 25%;
+        padding: 20px;
+    }
+    .picture{
+    height: 100px;
+
+    }
+    .picture img{
+    width: 700px;
+    z-index: 1;
+    }
+    .test{
+    position: relative;
+    top: 145px;
+    left: 400px;
+    z-index: 2;
+    text-align: center;  
+    
+    }
+    
+    .test h1 {
+        position: relative;
+        top: 90px;
+        left: 90px;
+    width: 140%;
+    
+    }
+    .test h2 {
+        position: relative;
+        top: 100px;
+        left: 150px;
+    }
+    .test a {
+        position: relative;
+        top: 130px;
+        left: 150px;
+        color: white;
+    }
+    .test img{
+        position: relative;
+        bottom: 45px;
+    }
+    .firstText h1{
+        position: relative;
+        top: 220px;
+        right: 130px;
+    width: 160%;
+    }
+    .firstText h2{
+        position: relative;
+        top: 230px;
+        right: 40px;
+    }
+    .firstText{
+        position: relative;
+        left: 200px;
+    
+    }
+    #first a{
+        position: relative;
+        left: 200px;
+        width: 50px;
+    }
+
+    .links{
+        position: relative;
+        top: 240px; 
+        left: 40px;      
+    }
+
+    #first img{
+        position: relative;
+    top: 100px;
+    
+    }
+    #first a{
+        position: relative;
+        top: 20px;
+        color: white;
+    }
+    #first a:hover{
+        color: black;
+    }
+    .test2Text{
+        position: relative;
+        right: 1000px;
+        top: 600px;
+    }
+    .test2Text a{
+        position: relative;
+        top: -10px;
+        left: 20px;
+    }
+    .test2Text h1{
+        position: relative;
+        width: 160%;
+    right: 150px;
+    margin-bottom: 15px;
+    top: 130px; 
+    }
+    .test2Text h2{
+        position: relative;
+    bottom: 30px;
+    right: 20px;
+    top: 110px;
+    }
+    .test2Text img{
+    position: relative;
+    right: 270px;
+    }
+    .test2Text a{
+        color: white;
+        position: relative;
+        top: 140px;
+    }
+    .test3{
+        position: relative;
+        top: 280px;
+        left: 830px;
+        
+    }
+    .test3 h1{
+        position: relative;
+    width: 160%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    left: 90px;
+    top: 130px;
+    }
+    .test3 h2{
+        position: relative;
+        width: 400px;
+        left: 150px;
+        top: 140px;
+    }
+    .test3 a{
+        color: white;
+        position: relative;
+    top:  170px;
+    left: 290px;
+    }
+    .test3 img{
+        position: relative;
+        top: -0px;
+        height: 440;
+    }
+    .test4{
+        position: relative;
+        top: 820px;
+        right: 425px;
+        
+    }
+    .test4 h1{
+        position: relative;
+        left: 60px;
+    top: 130px;
+    width: 200%;
+    }
+    .test4 h2{
+        position: relative;
+        left: 200px;
+        top: 140px;
+    }
+    .test4 a{
+        color: white;
+        position: relative;
+        top: 170px;
+        left: 220px;
+    }
+    .test5{
+    position: relative;
+    top: 820px;
+    bottom: 20px;
+    }
+    .test5 h1{
+    position: relative;
+    top: 140px;
+    left: 50px;
+    width: 180%;
+    }
+    .test5 h2{
+        position: relative;
+        left: 200px;    
+        top: 150px;
+        }
+        .test5 a{
+            position: relative;     
+            top: 170px;
+            left: 280px;
+            color: white;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 150px;
+            left: 690px;
+            width: 20px;
+           height: 10%;
+           transform: scale(.8);
+        
+        }
+        .header > ul{
+            display: flex;
+            justify-content: center;
+        }
+        .header > ul > li >a{
+            color: white;
+            margin: 20px;
+            transition: color .1s linear;
+            
+        }
+        .header > ul > li > a> img{
+            display: block;
+            margin-bottom: 10px;
+            margin: 10px;
+        }
+        .header > ul > li > a:hover{
+            color: lime;
+        }
+        .sus{ 
+            position: relative;
+            bottom: 45px;
+        }
+    .idc img{
+        width: 130px;
+        position: relative;
+        bottom: 25px;
+        left: 00px;
+    }
+    .idc > a{
+        color: white;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    align-items: center;
+    bottom: 5px;
+    right: 30px;
+    transition: transform .2s;
+    }
+    .idc > a:hover{
+        color: lime;
+        transform: scale(1.2)   
+    }
+    .sus img{
+        width: 90px;
+        position: relative;
+        bottom: -   5px;
+    }
+    .sus > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: end;
+    position: relative;
+    color: white;
+    transition: transform .2s;
+    width: 100px;
+    }
+    .sus > a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+    .sus > ul > li > a{
+        position: relative;
+        top: 45px ;
+    }
+    .sus2 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 40px;
+    left: 20px;
+    transition: transform .2s;
+    }
+    .sus2 > a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+    .sus3 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 40px;
+    transition: transform .2s;
+    }
+    .sus3 > a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+
+    .sus4 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 50px;
+    transition: transform .2s;
+    }
+    .sus4 > a:hover{
+    color: lime;
+    transform: scale(1.2)
+    }
+    .sus5 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 30px;
+    transition: transform .2s;
+    width: 130px;
+    }
+    .sus5 a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+    .sus6 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 30px;
+    left: 60px;
+    transition: transform .2s;
+    }
+    .sus6 a:hover{
+        color: lime;
+        transform: scale(1.2);
+    }
+    .sus7 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 80px;
+    transition: transform .2s; 
+    }
+    .sus7 a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+    .sus8 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 100px;  
+    transition: transform .2s;
+    }
+    .sus8 a:hover{
+        color: lime;
+        transform: scale(1.2)
+    }
+    .sus9 > a{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    bottom: 50px;
+    left: 140px;
+    transition: transform .2s;
+    width: 120px;
+    }
+    .sus9 a:hover{
+        color: lime;
+    transform: scale(1.2)
+    }
+    .header2{
+        color: white;
+        position: relative;
+        top: 70px;
+        background: rgba(128, 128, 128, 0.244);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .ea1{
+        color: lime;
+        position: relative;
+        top: 270px;
+        z-index: 900;
+        left: 140px;
+        font-weight: bold;
+        font-size: 40px;
+    text-shadow: 3px 2px 2px black;
+    width: 2000px;
+    }
+    .h2{
+        color: gray;
+        position: relative;
+        top: 280px;
+        z-index: 980;
+        left: 140px;
+        font-weight: bold;
+        font-size: 20px;
+    margin-bottom: 20px;
+    }
+    .text{
+        position: relative;
+        right: 40px;
+        width: 50%;
+        bottom: 30px;
+    }
+    .ea2{
+        color: white;
+        position: relative;
+        left: 100px;
+        top: 300px;
+        font-weight: bolder;
+        width: 50%;
+    }
+    .text2{
+        position: relative;
+        bottom: 40px;
+    }
+    .ea3{
+        color: gray;
+        position: relative;
+        top: 300px;
+        left: 100px;
+        width: 60%;
+    }
+    .card{
+        position: relative;
+        top: 300px;
+        right: -105px;
+        background: #111111;
+        width: 20%;
+        margin-top: 20px;
+        height: 40%;
+    }
+    .card img{
+        position: relative;
+    left: 20px;
+    transition: transform .2s;
+    }
+    .card img:hover{
+        transform: scale(1.1);
+    }
+    .cardInfo{
+        background: #222222;
+        color: white;
+        position: relative;
+        bottom: 40px;
+        height: 240px;
+    }
+    .cardInfo p{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        position: relative;
+    
+    }
+    .special{
+        color: white;
+    }
+    .peas{
+        color: gray;
+    }
+    .cost{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ez{
+    position: relative;
+    top: 150px;
+    right: 85px;
+
+    }
+    .from{
+        position: relative;
+        top: 130px;
+        right: 28px;
+    }
+   .ez2{
+    background: limegreen;
+    color: black;
+    font-weight: bolder;
+    padding: 9 15px;
+    transform: scale(.9);
+    position: relative;
+    top: 140px;
+    border-radius: 5px;
+    left: 30px;
+   }
+   .ez2:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+   }
+    .card2{
+     position: relative;
+        z-index: 200;
+        background: #111111;
+        width: 20%;
+        height: 65%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        left: 450px;
+        bottom: 10px;  
+        padding: 45 0;
+    }
+    .card2 img{
+        position: relative;
+    left: 20px;
+    top: -60px;
+    }
+    .card h2{
+        position: relative;
+        left: 10px;
+    }
+    .peas2{
+        position: relative;
+        color: gray;
+        width: 250px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 3px;
+        left: 10px;
+    }
+    .card2 h2{
+        position: relative;
+        left: 10px;
+    }
+    .cardInfo2{
+        background: #222222;
+        color: white;
+        position: relative;
+        bottom: 60px;
+        height: 50%;
+        /* background: #222222;
+        margin: 10px;
+        height: 100000%;
+        position: relative;
+        top: -100px;
+        right: 5px;
+        width: 330px; */
+    }
+    .cost3{
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .ez234{
+        position: relative;
+        bottom: -10px;
+        right: 10px;   
+        color: black;
+        background: limegreen;
+    border-radius: 5px;
+        padding: 7px;
+        width: 60px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 55px;
+    }
+    .div{
+        background: #222222;
+        height: 47%;
+        position: relative;
+        bottom: 30px;
+    }
+    .card2 img{
+        position: relative;
+        top: -60px;
+        left: 5px;
+        transition: transform .2s;
+    }
+    .card2 img:hover{
+        transform: scale(1.1)
+    }
+    .ez23{
+        position: relative;
+        right: 85px;
+        top: 25px;
+        margin-top: 50px;
+    }
+   .ea19{
+    position: relative;
+    left: 10px;
+    top: 55px;
+   }
+   .ez234:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+   }
+   .card3{
+    position: relative;
+    bottom: 485px;
+    left: 800px;
+    background-color: #111111;
+    width: 20%;
+    padding: 5 0;
+    color: white;
+    height: 380px;
+   }
+   .card3 h2{
+    font-size: 20px;
+   }
+
+   .card3 img{
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    transition: transform .2s;
+   }
+   .card3 img:hover{
+    transform: scale(1.1);
+   }
+   .div2{
+    width: 100%;
+    height: 63%;
+    background: #222222; 
+    position: relative;
+    bottom: 40px;
+   }
+   .cardInfo3{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+   }
+   .peas3{
+    margin-bottom: 20px;
+    position: relative;
+left: 10px;
+top: 10px;
+color: gray;
+}
+   .asd{
+    margin-bottom: 20px;
+    position: relative;
+    left: 10px;
+   }
+   .ez24{
+    position: relative;
+    left: 230px;
+    bottom: 15px;
+    color: black;
+    background-color: limegreen;
+    font-weight: bolder;
+    padding:  7 13px;
+    border-radius: 5px;
+   }
+   .ea12{
+    position: relative;
+    left: 10px;
+   }
+   .ez232{
+    position: relative;
+    left: 10px;
+   }
+   .card3 h2{
+    position: relative;
+    left: 10px;
+   }
+   .ea1123{
+    position: relative;
+    left: 10px;
+   }
+   .ez24:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+   }
+   .card4{
+    position: relative;
+    left: 1160px;
+    bottom: 865px;
+    background:#111111;
+    width: 20%;
+    height: 50%;
+    color: white;
+    padding: 13 0;
+    background: linear-gradient(to right, #111111, black);
+   }
+   .card4 h2{
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+   }
+   .div3{
+    position: relative;
+    bottom: 10px;
+    background:#222222;
+    background: linear-gradient(to right, #222222, black);
+   }
+   .cardInfo4{
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+    padding: 40 0px;   
+   }
+   .card4 h2{
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    width: 400px;
+   }
+   .card4 img{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    transition: transform .2s;
+    width: 260px;
+   }
+   .card4 img:hover{
+    transform: scale(1.1);
+   }
+   .ea134{
+    position: relative;
+    top: 20px;
+    left: 10px;
+   }
+   .ez2324{
+    position: relative;
+    top: 20px;
+    left: 10px;
+   }
+   .ez256{
+    color: black;
+    background-color: limegreen;
+    position: relative;
+    left: 230px;
+    bottom: 5px;
+    padding: 7 11;
+    border-radius: 5px;
+    font-weight: bolder;
+   }
+   .ez256:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+   }
+.easw2{
+    position: relative;
+    left: 1030px;
+    width: 400px;
+    top: 150px;
+    text-shadow: 2px 2px 2px black;
+}
+.easw3{
+    position: relative;
+    color: gray;
+    width: 400px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    left: 1030px;
+    top: 160px;
+    z-index: 998;
+}
+.button2{
+    color: lime;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    left: 1030px;
+    top: 180px; 
+}
+.blank{
+    background: black;
+    height: 1000px;
+    width: 100px;
+    position: relative;
+    bottom: 2230px;
+    z-index: 998
+}
+.blank2{
+background: black;
+width: 100px;
+height: 1000px;
+position: relative;
+left: 1419px;
+bottom: 3230px;
+z-index: 997;
+}
+.card5{
+    position: relative;
+    color: white;
+    height: 50%;
+    bottom: 900px;
+    left: 200px;
+    width: 20%;
+    background: #111111;
+
+}
+.card5 img{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    transition: transform .2s;
+}
+.card5 img:hover{
+    transform: scale(1.1);
+}
+.card5 h2{
+    position: relative;
+    left: 10px;
+}
+.mes1{
+    position: relative;
+    left: 10px;
+    margin-bottom: 0px;
+}
+.mes2{
+    position: relative;
+    left: 10px;
+}
+.mes3{
+    color: black;
+    font-weight: bolder;
+    background: limegreen;
+    border-radius: 5px;
+    padding: 6 10;
+    position: relative;
+    left: 270px;
+    bottom: 25px;
+}
+.mes3:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+}
+.idk2{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 950px;
+    left: 200px;
+    width: 600px;
+}
+.idk3{
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    bottom: 950px;
+    left: 200px;
+    width: 700px;
+}
+.text4{
+    color: white;
+    position: relative;
+    bottom: 670px;
+    left: 100px;
+}
+.text4 h3{
+    color: gray;
+}
+.card5{
+    position: relative;
+  bottom: 650px;
+  left: 100px;
+}
+.card5 h2{
+    width: 500px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.card5 p{
+    width: 300px;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+}
+.ez2567{
+    position: relative;
+    left: 250px;
+    color: black;
+    font-weight: bolder;
+    background-color: limegreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 15px;
+}
+.card5 img{
+    position: relative;
+right: 200px;
+}
+.ez25678{
+    color: black;
+    font-weight: bolder;
+    padding: 6 8px;
+    background: limegreen;
+    border-radius: 5px;
+    position: relative;
+    left: 245px;
+    top: 20px;
+}
+.ez25678:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+}
+.card6{
+    width: 20%;
+    height: 48%;
+    background-color: #111111;
+    color: white;
+    position: relative;
+    left: 450px;
+    bottom: 1015px;
+}
+.div4{
+    background: #222222;
+    position: relative;
+    top: -5
+}
+.card6 h2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+.card6 p{
+    position: relative;
+    top: 20px;  
+}
+.cardInfo5{
+    height: 55%;
+    position: relative;
+}
+.card6 img{
+    transition: transform .2s;
+}
+.card6 img:hover{
+    transform: scale(1.1);
+}
+.ez256789{
+    color: black;
+    font-weight: bolder;
+    background-color: limegreen;
+    position: relative;
+    left: 240px;
+    padding: 6 8px;
+    border-radius: 5px;
+}
+.ez256789:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+}
+.card7{
+    background-color: #111111;
+    width: 20%;
+    position: relative;
+    left: 800px;
+    bottom: 1365px;
+    color: white;
+    height: 66%;
+}
+.card7 h2{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.card7 p{
+    position: relative;
+    top: 20px;
+}
+.card7 img{
+    transition: transform .2s
+}
+.card7 img:hover{
+    transform: scale(1.1);
+}
+.cardInfo6{
+    position: relative;
+}
+.div5{
+    background-color: #222222;
+    height: 40%;
+    bottom: 5px;
+    position: relative;
+}
+.card8{
+    background: #111111;
+    width: 20%;
+    position: relative;
+    left: 1160px;
+    bottom: 1848px;
+    color: white;
+    background: linear-gradient(to right, #111111, black);
+}
+.card8 img{
+    transition: transform .2s;
+}
+.card8 img:hover{
+    transform: scale(1.1);
+}
+.div6{
+background-color: #222222;
+height: 26%;
+position: relative;
+
+}
+.card8 h2{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+  .linearText{
+    position: relative;
+    bottom: 2200px;
+  }
+    .linear img{
+        width: 1500px;
+        position: relative;
+        bottom: 1800px;
+        left: 70px;
+    }
+    .easw2{
+        color: pink;
+    }
+    .button2{
+        color: white;
+    }
+    .dif{
+        color: white;
+        position: relative;
+        bottom: 1800px;
+        left: 80px;
+    }
+    .dif h3{
+        color: gray;
+    }
+    .card9{
+        width: 20%;
+        background: #111111;
+        bottom: 1770px;
+        position: relative;
+        left: 80px;
+        color: white;
+    }
+    .card9 h2{
+        font-size: 20px;
+        font-weight: 200;
+        position: relative;
+        left: 10px;
+        top: 5px;
+    }
+    .peas4{
+        color: gray;
+        font-size: 14px;
+        left: 10px;
+        position: relative;
+        top: 10px;
+
+    }
+    .ez2567890{
+        position: relative;
+        left: 240px;
+        bottom: 20px;
+        color: black;
+        background-color: limegreen;
+        padding: 6 8px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    .ez2567890:hover{
+        background-color: rgba(19, 204, 47, 0.652);
+    }
+    .ez23245{
+        position: relative;
+        left: 10px;
+    }
+    .card9 img{
+        transition: transform .2s;
+    }
+    .card9 img:hover{
+        transform: scale(1.1);
+    }
+    .card10{
+        background-color:#111111;
+        width: 20%;
+        color: white;
+        position: relative;
+    bottom: 2260px;
+    left: 450px;
+    }
+    .card10 h2{
+        font-size: 20px;
+        font-weight: 100;
+        position: relative;
+        left: 10px;
+        top: 5px;
+    }
+    .peas5{
+        color: gray;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .ez232456{
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .ez25678901{
+        color: black;
+        position: relative;
+        left: 240px;
+        font-weight: bolder;
+        background-color: limegreen;
+        padding: 6 8px;
+        border-radius: 5px;
+        bottom: 5px;
+    }
+    .card10 img{
+        transition: transform .2s;
+    }
+    .card10 img:hover{
+        transform: scale(1.1);
+    }
+    .ez25678901:hover{
+        background-color: rgba(19, 204, 47, 0.652);
+    }
+    .card11{
+        position: relative;
+        width: 20%;
+        background: #111111;
+        bottom: 2750px;
+        left: 820px;
+        color: white;
+        height: 66%;
+    }
+    .card11 h2{
+        font-weight: 100;
+        position: relative;
+        left: 10px;
+        font-size: 20px;
+        top: 5px;
+    }
+    .card11 img{
+        transition: transform .2s;
+        width: 200px;
+        position: relative;
+        left: 50px;
+        top: 30px;
+    }
+    .card11 img:hover{
+transform: scale(1.1);
+    }
+    .div7{
+        background: #222222;
+        position: relative;
+        top: 120px;
+        height: 192px;  
+    }
+    .card12{
+        background-color: #111111;
+        width: 20%;
+        bottom: 3230px;
+        position: relative;
+        left: 1170px;
+        height: 400px;
+        color: white;
+        background: linear-gradient(to right, #111111, black);
+    }
+    .card12 img{
+        width: 250px;
+position: relative;
+left: 30px;
+transition: transform .2s;
+    }
+.card12 img:hover{
+    transform: scale(1.1);
+}
+.card12 h2{
+    font-weight: 100;
+    position: relative;
+    left: 10px;
+}
+    .div8{
+        height: 190px;
+        background: #222222;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        background: linear-gradient(to right, #222222, black);
+    }
+    .a{
+        height: 400px;
+        width: 1000px;
+        position: relative;
+        left: -50px;
+        bottom: 3000px;
+        background-image: url(rvipe.jpg);
+        color: white;
+    }
+    .a h2{
+        position: relative;
+        left: 1000px;
+        bottom: 250px;
+        width: 250px;
+        text-shadow: 2px 2px 2px black;
+font-weight: bolder;
+    }
+    .a p{
+        position: relative;
+        left: 1000px;
+        color: gray;
+        font-size: 20px;
+        bottom: 240px;
+        width: 300px;
+    }
+.monke{
+    color: limegreen;
+    position: relative;
+    left: 1000px;
+    bottom: 230px;
+}
+.monke:hover{
+ text-decoration: underline;
+}
+.pic1{
+    background-color: #222222;
+    color: white;
+    width: 250px;
+    padding: 20 0px;
+    position: relative;
+    left: 100px;
+    bottom: 2900px;
+}
+
+.pic1 a{
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.pic1 img{
+    width: 250px;
+    position: relative;
+    top: 20px;
+}
+.pic1 img:hover{
+    background: black;
+}
+.pic2{
+    background-color: #222222;
+    color: white;
+    width: 250px;
+    padding: 20 0px;
+    position: relative;
+    left: 400px;
+    bottom: 3210px;
+}
+.pic2 img{
+    width: 250px;
+    position: relative;
+    top: 20px;
+}
+.pic2 a{
+    color: white;
+ display: flex;
+ justify-content: center;
+}
+.pic3 img{
+    width: 243px; 
+    position: relative;
+    left: -1px;  
+    height: 250px;
+top: 36px;
+}
+.pic3 a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.pic3{
+    position: relative;
+    bottom: 3516px;
+    background-color: #222222;
+    left: 680px;
+    width: 16%;
+    height: 42%;
+}
+.pic4{
+    width: 250px;
+    position: relative;
+    bottom: 3820px;
+    left: 950px;
+    background-color: #222222;
+    height: 42%;
+
+}
+.div9{
+    height: 190px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.div10{
+    height: 190px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.div11{
+    height: 190px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: 50px; 
+}
+.pic4 img{
+    width: 250px;
+    position: relative;
+    top: 34px;
+}
+.pic4 a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 19px;
+}
+.textto{
+    color: white;
+    position: relative;
+    bottom: 3700px;
+    left: 90px;
+}
+.ma{
+    color: gray;
+}
+.card13{
+    background-color: #111111;
+    width: 20%;
+    position: relative;
+    bottom: 3654px;
+    left: 90px;
+    color: white;
+}
+.card13 h2{
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.card13 img{
+    transition: transform .2s;
+}
+.card13 img:hover{
+    transform: scale(1.1);
+}
+.card13 p{
+    font-size: 13px;
+    font-weight: 100;
+}
+.peas6{
+    color: gray;
+    position: relative;
+    left: 10px;
+    width: 300px;
+    top: 10px;
+}
+.special4{
+    position: relative;
+    top: 20px;
+}
+.ez2324567{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.card14{
+    color: white;
+    width: 20%;
+    background: #111111;
+    position: relative;
+    bottom: 4143px;
+    left: 440px
+}
+.card14 p{
+    font-size: 13px;
+    font-weight: 100;
+}
+.card14 h2{
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    left: 10px;
+}
+.peas7{
+    color: gray;
+    position: relative;
+    left: 10px;
+    top: 10px;  
+width: 285px;
+}
+.asdf{
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+.cost5{ 
+    position: relative;
+    top: 20px;
+}
+.card14 img{
+    transition: transform .2s;
+    width: 300px;
+}
+.card14 img:hover{
+    transform: scale(1.1)
+}
+.card15{
+    color: white;
+    width: 20%;
+     background: #111111;
+    position: relative;
+    bottom: 4634px;
+    left: 790px;
+}
+.card15 h2{
+    font-weight: 100;
+    font-size: 19px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.ez23245678{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.ez256789010{
+    position: relative;
+    left: 245px;
+    top: 33px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: black;
+    background: limegreen;
+    padding: 7px 10px;
+
+}
+.ez256789010:hover{
+    background-color: rgba(19, 204, 47, 0.652);
+}
+.peas8{
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 13px;
+    left: 10px;
+}
+.special5{
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+}
+.card15 img{
+    transition: transform .2s;
+}
+.card15 img:hover{
+    transform: scale(1.1);
+}
+.card16{
+    width: 20%;
+    color: white;
+    background-color: #111111;
+    position: relative;
+    bottom: 5125px;
+    left: 1150px;
+    background: linear-gradient(to right, #111111, black);
+}
+.card16 h2{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    font-weight: 100;
+    width: 290px;
+}
+.card16 img{
+    transition: transform .2s;
+}
+.card16 img:hover{
+    transform: scale(1.1);
+}
+.div12{
+    height: 190px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    background: linear-gradient(to right, #222222, black);
+}
+.random{
+    height: 190px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+.peas9{
+    color: gray;
+    position: relative;
+    font-size: 14px;
+    left: 10px;     
+    top: 10px;
+}
+.test2r{
+    color: white;
+}
+.suz{
+    color: gray;
+}
+.mytest{
+    position: relative;
+    left: 80px;
+bottom: 4950px;
+}
+.card17{
+    background: #111111;
+    width: 20%;
+    position: relative;
+    bottom: 4930px;
+    left: 75px;
+    color: white;
+}
+.card17 h2{
+    font-size: 20px;    
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.peas10{
+    color: gray;
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    left: 10px;
+}
+.peas11{
+    color: gray;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 15px;
+}
+.div13{
+    height: 150px;
+    background: #222222;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.card17 img{
+    transition: transform .2s;
+}
+.card17 img:hover{
+    transform: scale(1.1);
+}
+.card18{
+    width: 20%;
+    color: white;
+    background: #111111;
+    position: relative;
+    bottom: 5380px;
+    left: 430px;
+}
+.card18 h2{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.card18 img{
+    transition: transform .2s;
+}
+.card18 img:hover{
+    transform: scale(1.1);
+}
+.card19{
+    width: 20%;
+    background: #111111;
+    position: relative;
+    bottom: 5830px;
+    left: 780px;
+    color: white;
+}
+.card19 h2{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.card19 img{
+transition: transform .2s;
+}
+.card19 img:hover{
+    transform: scale(1.1);
+}
+.card20{
+    position: relative;
+    width: 20%;
+    background: #111111;
+    bottom: 6280px;
+    left: 1140px;
+    color: white;
+}
+.card20 h2{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.peas12{
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    width: 299px;
+    left: 10px;
+}
+.card20 img{
+transition: transform .2s;
+}
+.card20 img:hover{
+    transform: scale(1.1)
+}
+
+
+.type1{
+    color: white;
+    position: relative;
+    bottom: 5900px;
+    left: 200px;
+}
+.type1 h2{
+    position: relative;
+    top: 10px;
+}
+.type1 p{
+    color: gray;
+    width: 240px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.energy{
+    width: 100px;
+    position: relative;
+    left: 32px;
+}
+.testing{
+    color: white;
+    position: relative;
+    bottom: 2000px;
+    left: 200px;
+    z-index: 999;
+}
+.shop{
+    width: 100px;
+    position: relative;
+    bottom: 6100px;
+}
+.cost{
+    width: 100px;
+    position: relative;
+    bottom: 130px;
+    left: 30px; 
+}
+    .razergear{
+    position: relative;
+    left: 30px;
+}
+.testing2{
+    color: white;
+    width: 20%;
+    position: relative;
+    bottom: 6250px;
+    left: 760px;
+}
+
+.cost2{
+    width: 100px;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+.swag{
+ position: relative;
+ left: 100px;
+}
+.manee{
+    color: gray;
+    position: relative;
+    bottom: 20px;
+    width: 200px;
+    font-weight: bolder;
+    left: 50px;
+}
+.testing3{
+    width: 20%;
+    color: white;
+    position: relative;
+    bottom: 6470px;
+    left: 1100px;
+}
+.ihatethis{
+    position: relative;
+    left: 20px;
+}
+.footer{
+    background: #111111;
+    height: 600px;
+    color: white;
+    position: relative;
+    bottom: 6400px;
+}
+.footera{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+}
+.footera p{
+    margin-top: 20px;
+    position: relative;
+    right: 154px;
+    transform: scale(.8);
+}
+.stores{
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+    transition: .6s;
+    transform: scale(.8);
+    width: 100px;
+
+}
+.stores:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footerb{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 280px;
+  bottom: 380px;
+  transform: scale(.8)
+}
+.stores2{
+    color: gray;
+    margin: 20px 20px 0px 0px;
+    transition: .6s;
+
+}
+.stores2:hover{
+    color: white;
+    text-decoration: underline;
+}
+.e{
+    width: 200px;
+    position: relative;
+    left: -25px;
+}
+.footerc{
+    transform: scale(.8);
+    position: relative;
+    bottom: 602px;
+    left: 430px;
+}
+#chroma{
+    width: 100px;
+}
+#tech{
+    width: 80px;
+}
+#concep{
+    width: 70px;
+}
+#sports{
+    width: 60px;
+}
+#colab{
+    width: 60px;
+}
+.stores3{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    transition: .6s;
+    width: 170px;
+    position: relative;
+}
+.stores3:hover{
+color: white;
+text-decoration: underline;
+}
+#mhm{
+    width: 80px;
+}
+#yea{
+    width: 120px;
+}
+#theraphy{
+width: 65px;
+position: relative;
+
+}
+#id{
+    width: 130px;
+}
+#holuplemmecook{
+    width: 150px;
+}
+.suppo{
+    margin-bottom: 20px;
+}
+.stores4{
+    color: gray;
+    transform: scale(.8);
+    margin-bottom: 15px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    transition: .6s;
+    width: 75px;
+}
+.stores4:hover{
+    color: white;
+    text-decoration: underline;
+}
+#cont{
+    width: 80px;
+}
+.footerd{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 880px;
+    left: 700px;
+    
+}
+.footerd p{
+transform: scale(.8);
+}
+.texthol{
+color: limegreen;
+transform: scale(.7);
+font-weight: 100;
+position: relative;
+bottom: 1290px;
+left: 980px;
+}
+.thefinal{
+    border-color: gray;
+    position: relative;
+    bottom: 890px
+}
+.blank1{
+background: #111111;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    bottom: 1070px;
+}
+.blanker2{
+    background:#111111;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    left: 1400px;
+    bottom: 1400px;
+}
+.footere{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1040px;
+    bottom: 1045px;
+
+  
+}
+.followed{
+    position: relative;
+    bottom: 15px;
+    right: 145px;
+    transform: scale(.8);
+}
+
+.followd{
+    color: gray;
+    transition: .6s;
+    margin-bottom: 15px;
+    transform: scale(.8);
+    width: 70px;
+}
+.followd:hover{
+    color: white;
+    text-decoration: underline;
+}
+.x{
+    width: 10px;
+    position: relative;
+    left: 6px;
+}
+.yutube{
+    width: 60px;
+}
+.su3s{
+    width: 55px;
+}
+.nahidwin{
+    color: gray;
+    transform: scale(.8);
+    display: flex;
+    position: relative;
+    bottom: 2250px;
+}
+.wydm{
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+    top: 980px;
+    display: flex;
+ 
+}
+.copyright{
+    position: relative;
+    top: 990px;
+}
+.res{
+    color: gray;
+margin-right: 20px;
+transition: .6s;
+}
+.res:hover{
+    color: white;
+    text-decoration: underline;
+}
+.location{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: 1000px;
+}
+.locat2{
+    color: white;
+}
+.locat{
+    color: gray;
+    position: relative;
+    left: 5px;
+    transition: .6s;
+}
+.locat:hover{
+    color: white;
+    text-decoration: underline;
+}
+.whybuy{
+    color: limegreen;
+    width: 713px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+position: relative;
+bottom: 6180px;
+left: 630px;
+transform: scale(1.3);
+}
+.energyim{
+    width: 80px;
+margin-bottom: 20px;
+position: relative;
+left: 30px;
+}
+.energyh2{
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+.energyp{
+    color: gray;
+    font-size: 19px;
+    width: 340px;
+    position: relative;
+    right: 50px;
+}
+#energy{
+    position: relative;
+    bottom: 6000;
+    left: 100px;
+    color: white;
+}
+#idontknowanymore{
+    color: white;
+    position: relative;
+    bottom: 6195px;
+    left: 460px;
+}
+.costp{
+    color: gray;
+width: 400px;
+font-size: 19px;
+position: relative;
+right: 50px;
+}
+.costh2{
+    width: 400px;
+margin-bottom: 10px;
+position: relative;
+right: 80px;
+}
+.costim{
+    width: 80px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 70px;
+}
+.starim{
+    width: 80px;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+}
+#lestar{
+    color: white;
+    position: relative;
+    bottom: 6377px;
+    left: 830px;
+}
+.starh2{
+    width: 400px;
+    position: relative;
+    right: 20px;
+}
+.starp{
+    color: gray;
+    font-size: 19px;
+    width: 350px;
+    margin-top: 10px;
+}
+#ehnote{
+    color: white;
+    position: relative;
+    bottom: 6535px;
+    left: 1220px;
+}
+.notep{
+    color: grey;
+    width: 300px;
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+}
+.noteim{
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+}
